@@ -1,7 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Splash of Color</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #ff9999, #66b3ff);
+    }
+
+    .container {
+      width: 600px;
+      margin: 100px auto;
+      padding: 30px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .color-block {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      border-radius: 5px;
+    }
+
+    .color-block.red {
+      background-color: #ff4040;
+    }
+
+    .color-block.green {
+      background-color: #2ECC71;
+    }
+
+    .color-block.blue {
+      background-color: #3498DB;
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div class="container">
+    <h1>Welcome to a World of Color</h1>
+    <p>This page is an example of how you can use color to create a visually appealing website.</p>
+    <div class="color-block red"></div>
+    <div class="color-block green"></div>
+    <div class="color-block blue"></div>
+  </div>
 </body>
 </html>
